@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+.image-wrapper{
+    position: relative;
+    display: inline-block
+}
+
+.growth-text{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    /* 文字のデザイン */
+    font-family: 'RocknRoll One', serif;
+    color: rgb(216, 137, 52);
+    font-size: 8rem;
+    text-shadow: 2px 2px 4px rgba(8, 8, 8, 0.5);
+}

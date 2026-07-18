@@ -23,7 +23,6 @@ module Myapp
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
-    
     # システムテストの自動生成をオフにしたいから以下のコード
     config.generators.system_test = nil
     config.generators do |g|
@@ -31,6 +30,5 @@ module Myapp
       g.helper false # ヘルパーファイルを自動生成しないようにする設定
       g.test_framework nil # テストフレームワークを使わないようにする設定
     end
-
   end
 end
